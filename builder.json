@@ -1,0 +1,22 @@
+{
+  "schema": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "label": "Template name",
+      "default": "template-name"
+    },
+    "description": {
+      "type": "string",
+      "required": false,
+      "label": "Template description",
+      "default": "A template of something that saves time and makes the life of others easy!"
+    },
+    "company": {
+      "type": "string",
+      "required": true,
+      "label": "Company name",
+      "default": "Web Semantics, Inc."
+    }
+  }
+}

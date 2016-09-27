@@ -1,0 +1,16 @@
+{
+  "schema": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "label": "Name",
+      "default": "name-extension"
+    },
+    "description": {
+      "type": "string",
+      "required": false,
+      "label": "Description",
+      "default": "Descripe the project here!"
+    }
+  }
+}

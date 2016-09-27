@@ -14,9 +14,17 @@
 
 - All files needed to build a [Pyro Builder](github.com/websemantics/builder-extension) template
 
+## Getting Started
+
+After installing [Pyro Builder](github.com/websemantics/builder-extension) run,
+
+```
+php artisan make:builder template-template
+```
+
 ## Support
 
-Need help or have a question? post a questions at [StackOverflow](https://stackoverflow.com/questions/tagged/builder-extension)
+Need help or have a question? post a questions at [StackOverflow](https://stackoverflow.com/questions/tagged/template-template)
 
 *Please don't use the issue trackers for support/questions.*
 
