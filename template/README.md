@@ -1,12 +1,7 @@
 ```
 {{[slug,' ',type]|join|upper|figlet}}
-{{'TEMPLATE'|figlet}}
 ```
 > {{description}}
-
-## Features
-
-- All files needed to build a [Pyro Builder](github.com/websemantics/builder-extension) template.
 
 ## Install
 
@@ -18,7 +13,7 @@ php artisan make:builder {{slug}}-{{type}}
 
 ## Support
 
-Need help or have a question? post a questions at [StackOverflow](https://stackoverflow.com/questions/tagged/{{[slug,'-',type,' -template']|join|lower}})
+Need help or have a question? post a questions at [StackOverflow](https://stackoverflow.com/questions/tagged/builder-extension+{{[slug,'-',type,'-template']|join|lower}})
 
 *Please don't use the issue trackers for support/questions.*
 
