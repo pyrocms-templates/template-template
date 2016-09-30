@@ -1,5 +1,5 @@
 ```
-{{name}}
+{{[slug,' ',type,' Template']|join|upper|figlet}}
 ```
 > {{description}}
 
@@ -12,16 +12,16 @@
 After installing [Pyro Builder](github.com/websemantics/builder-extension) run,
 
 ```
-php artisan make:builder {{name}}
+php artisan make:builder {{slug}}-{{type}}
 ```
 
 ## Support
 
-Need help or have a question? post a questions at [StackOverflow](https://stackoverflow.com/questions/tagged/{{name}})
+Need help or have a question? post a questions at [StackOverflow](https://stackoverflow.com/questions/tagged/{{[slug,'-',type,' -template']|join|lower}})
 
 *Please don't use the issue trackers for support/questions.*
 
-## Copyright and license
+## License
 
 [MIT license](http://opensource.org/licenses/mit-license.php)
 Copyright (c) {{company}}

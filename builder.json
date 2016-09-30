@@ -10,7 +10,7 @@
       "type": "string",
       "required": true,
       "label": "Template addon type",
-      "options": ["module","theme","extension","field_type"],
+      "options": ["module", "theme", "extension", "field_type"],
       "default": "module"
     },
     "vendor": {

@@ -1,4 +1,4 @@
 1.0.0
-  date: 2016-00-00
+  date: {{"now"|date("d/m/Y")}}
   changes:
   - list features and bug fixes
