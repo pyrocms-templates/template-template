@@ -48,7 +48,7 @@ Template default slug? [name]:
  > Anomaly Labs
 ```
 
-The example above will create a template for a **theme** addon `type` that has a default `slug`, **flat** and a default `vendor`, **anomaly**.
+The example above will create a template for a `theme` addon type that has a default slug, `flat` and a default vendor, `anomaly`.
 
 Well, this gets my head spinning every-time, but, because the generated code is for the target template (of type, `module`, `theme`, `extension` etc) the user will be able to specify different `vendor` and `slug` when it is used.
 
