@@ -1,16 +1,16 @@
 {
   "schema": {
-    "name": {
+    "slug": {
       "type": "string",
       "required": true,
-      "label": "Template name",
-      "default": "template-name"
+      "label": "Template slug",
+      "default": "template"
     },
     "description": {
       "type": "string",
       "required": false,
-      "label": "Template description",
-      "default": "A starting template of building Builder template."
+      "label": "Description",
+      "default": "A starting addon template for Pyro Builder."
     },
     "company": {
       "type": "string",
@@ -20,9 +20,9 @@
     },
     "path": {
       "type": "string",
-      "required": false,
+      "required": true,
       "label": "Path",
-      "default": "./"
+      "default": "./{{slug}}"
     }
   }
 }

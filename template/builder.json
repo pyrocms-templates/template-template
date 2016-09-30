@@ -1,10 +1,16 @@
 {
   "schema": {
-    "name": {
+    "vendor": {
+    "type": "string",
+    "required": true,
+    "label": "Vendor name",
+    "default": "websemantics"
+    },
+    "slug": {
       "type": "string",
       "required": true,
-      "label": "Name",
-      "default": "name-extension"
+      "label": "Addon slug",
+      "default": "custom"
     },
     "description": {
       "type": "string",
