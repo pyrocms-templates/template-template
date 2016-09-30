@@ -4,19 +4,19 @@
     "type": "string",
     "required": true,
     "label": "Vendor name",
-    "default": "websemantics"
+    "default": "{{vendor}}"
     },
     "slug": {
       "type": "string",
       "required": true,
       "label": "Addon slug",
-      "default": "custom"
+      "default": "{{slug}}"
     },
     "description": {
       "type": "string",
       "required": false,
       "label": "Description",
-      "default": "Descripe the project here!"
+      "default": "{{description}}"
     }
   }
 }

@@ -3,26 +3,33 @@
     "slug": {
       "type": "string",
       "required": true,
-      "label": "Template slug",
+      "label": "Template default slug",
       "default": "template"
+    },
+    "type": {
+      "type": "string",
+      "required": true,
+      "label": "Template addon type",
+      "options": ["module","theme","extension","field_type"],
+      "default": "module"
+    },
+    "vendor": {
+      "type": "string",
+      "required": false,
+      "label": "Template default Vendor",
+      "default": "websemantics"
     },
     "description": {
       "type": "string",
       "required": false,
       "label": "Description",
-      "default": "A starting addon template for Pyro Builder."
+      "default": "An addon template for Pyro Builder."
     },
     "company": {
       "type": "string",
       "required": false,
       "label": "Company name",
       "default": "Web Semantics, Inc."
-    },
-    "path": {
-      "type": "string",
-      "required": true,
-      "label": "Path",
-      "default": "./{{slug}}"
     }
   }
 }
