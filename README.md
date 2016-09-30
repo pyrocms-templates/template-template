@@ -50,17 +50,17 @@ Template default slug? [name]:
 
 The example above will create a template for a `theme` addon type that has a default slug, `flat` and a default vendor, `anomaly`.
 
-Well, this gets my head spinning every-time, but, because the generated code is for the target template (of type, `module`, `theme`, `extension` etc) the user will be able to specify different `vendor` and `slug` when it is used.
+Well, this gets my head spinning every-time, but, because the generated code is for the target template (of type, `module`, `theme`, `extension` etc) the user will be able to specify different `vendor` and `slug` values when it is used.
 
-The target template will be located as per the usual formula, `vendor.type.slug`, **anomaly.theme.flat**. Move the template from  `app/addons/default/anomaly/flat-theme` outside your project to prevent PHP throwing an exception.
+The target template will be located as per the usual formula, `vendor.type.slug`, **anomaly.theme.flat**. Move the template folder from `app/addons/default/anomaly/flat-theme` outside your project to prevent PHP throwing an exception.
 
-To use the generate template locally, place it in the builder storage folder (`app/storage/streams/default/builder/flat-theme`) then run,
+To test and develop the generate template locally, place it in the builder storage folder (`app/storage/streams/default/builder/flat-theme`) then run,
 
 ```bash
 php artisan builder:make flat-theme
 ```
 
-Do not use `--force` option as the template is not present in the registry, yet!
+Do not use `--force` option here or run `builder:clear` command as the template is not present in the registry, yet!
 
 ## Contribution
 
@@ -75,7 +75,7 @@ Need help or have a question? post a questions at [StackOverflow](https://stacko
 ## Resources
 
 - [Pyro Builder](https://github.com/websemantics/entity_builder-extension), scaffold your PyroCMS apps in style for a more pleasurable and productive coding experience.
-- [Default Module](https://github.com/pyrocms-templates/template-template), the default module template for [Pyro Builder Extension](https://github.com/websemantics/builder-extension), started with `template-template`.
+- [Default Module](https://github.com/pyrocms-templates/template-template), the default module template for Pyro Builder Extension.
 - [Auto Pyro](https://github.com/websemantics/auto-pyro), a PyroCMS deploy tool for faster development experience.
 - [Awesome PyroCMS](https://github.com/websemantics/awesome-pyrocms), a curated list of PyroCMS addons and resources.
 - [PyroCMS](https://github.com/pyrocms/pyrocms), an MVC PHP Content Management System built to be easy to use, theme and develop with. It is used by individuals and organizations of all sizes around the world.
