@@ -4,7 +4,7 @@
       "type": "string",
       "required": true,
       "label": "Template default slug",
-      "default": "template"
+      "default": "name"
     },
     "type": {
       "type": "string",
