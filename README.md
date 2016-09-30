@@ -25,7 +25,7 @@ php artisan builder:make template-template
 
 Use option `--force` to download a fresh copy of `template-template`.
 
-The builder will prompt you to either a default `slug`, addon `type` and `vendor` for the target template.
+The builder will prompt you to enter a default `slug`, addon `type` and `vendor` for the target template.
 
 ```
 Template default slug? [name]:
