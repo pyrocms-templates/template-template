@@ -1,5 +1,5 @@
 ```
-{{[slug,' ',type]|join|upper|figlet}}
+{{[slug,' ',type]|join|upper|figlet(crawford)}}
 {{'T E M P L A T E'|figlet}}
 ```
 > {{description}}
