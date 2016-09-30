@@ -14,9 +14,15 @@
     },
     "company": {
       "type": "string",
-      "required": true,
+      "required": false,
       "label": "Company name",
       "default": "Web Semantics, Inc."
+    },
+    "path": {
+      "type": "string",
+      "required": false,
+      "label": "Path",
+      "default": "./"
     }
   }
 }
