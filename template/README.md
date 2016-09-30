@@ -1,6 +1,6 @@
 ```
 {{[slug,' ',type]|join|upper|figlet}}
-{{'T E M P L A T E'|figlet}}
+{{'TEMPLATE'|figlet}}
 ```
 > {{description}}
 
