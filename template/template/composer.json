@@ -1,4 +1,4 @@
-{{% verbatim %}
+{% verbatim %}{
     "name": "{{vendor|lower}}/{{slug|lower}}-{{type|lower}}",
     "type": "streams-addon",
     "description": "{{description}}",
@@ -25,5 +25,5 @@
         "psr-4": {
             "{{vendor|studly_case}}\\{{slug|studly_case}}{{type|studly_case}}\\": "src/"
         }
-    }{% endverbatim %}
-}
+    }
+}{% endverbatim %}
