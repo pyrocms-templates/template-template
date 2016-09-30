@@ -10,7 +10,7 @@
       "type": "string",
       "required": false,
       "label": "Template description",
-      "default": "A template of something that saves time and makes the life of others easy!"
+      "default": "A starting template of building Builder template."
     },
     "company": {
       "type": "string",

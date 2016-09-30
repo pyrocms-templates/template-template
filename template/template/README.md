@@ -1,4 +1,6 @@
+{% verbatim %}
 ```
-{name}
+{{name}}
 ```
-> {description}
+> {{description}}
+{% endverbatim %}
