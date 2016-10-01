@@ -3,13 +3,8 @@
 ```
 > {{description}}
 
-## Install
+## Getting Started
 
-After installing [Pyro Builder](github.com/websemantics/builder-extension) run,
-
-```
-php artisan builder:make {{slug}}-{{type}}
-```
 {% endverbatim %}
 ## License
 
