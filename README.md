@@ -62,13 +62,16 @@ php artisan builder:make flat-theme
 
 Do not use `--force` option here or run `builder:clear` command as the template is not present in the registry, yet!
 
-## Easy Way
+## The Easy Way
 
-Is there an easy way, you ask? absolutely! Use the make:addon command as follows,
+Is there an easy way, you ask? absolutely! Use the `make:addon` command as follows,
 
+```bash
+php artisan make:addon anomaly.theme.flat --template  --force --default
+```
 
-php artisan builder:make template-template
-
+- `--template`: changes the behaviour of `make:addon` to create a template instead of the addon itself.
+- `--default`: skips user interactivity and uses template default values.
 
 ## Contribution
 
