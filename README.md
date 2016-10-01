@@ -52,11 +52,11 @@ The example above will create a template for a `theme` addon type that has a def
 
 #### Default Values
 
-The values for `vendor` and `slug` from the examples above are used as default values for the target template (`module`, `theme`, `extension` etc). The end-user can accept these when the template is being used or specify different values.
+The values for `vendor` and `slug` from the examples above are used as default values for the target template (`module`, `theme`, `extension` etc). The end-user can accept these defaults when the template is being used or specify different values.
 
 #### Location
 
-The target template will be located as per the usual formula, `vendor.type.slug` (**anomaly.theme.flat**), `app/addons/default/anomaly/flat-theme`. Move the template outside your project to avoid runtime exceptions.
+The target template will be located as per the usual formula, `vendor.type.slug` (**anomaly.theme.flat**) at `app/addons/default/anomaly/flat-theme`. Move the template outside your project to avoid runtime exceptions.
 
 #### Development
 
