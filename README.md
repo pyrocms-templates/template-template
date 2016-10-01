@@ -62,6 +62,14 @@ php artisan builder:make flat-theme
 
 Do not use `--force` option here or run `builder:clear` command as the template is not present in the registry, yet!
 
+## Easy Way
+
+Is there an easy way, you ask? absolutely! Use the make:addon command as follows,
+
+
+php artisan builder:make template-template
+
+
 ## Contribution
 
 If you have built an awesome template that would help others building better Pyro apps faster, consider submitting a request to include it in the registry. Thank you :)
