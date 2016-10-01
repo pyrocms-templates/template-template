@@ -50,9 +50,15 @@ Template default slug? [name]:
 
 The example above will create a template for a `theme` addon type that has a default slug, `flat` and a default vendor, `anomaly`.
 
-Well, this gets my head spinning every-time, but, because the generated code is for the target template (of type, `module`, `theme`, `extension` etc) the user will be able to specify different `vendor` and `slug` values when it is used.
+#### Default Values
 
-The target template will be located as per the usual formula, `vendor.type.slug`, **anomaly.theme.flat**. Move the template folder from `app/addons/default/anomaly/flat-theme` outside your project to prevent PHP throwing an exception.
+The values for `vendor` and `slug` from the examples above are used as default values for the target template (`module`, `theme`, `extension` etc). The end-user can accept these when the template is being used or specify different values.
+
+#### Location
+
+The target template will be located as per the usual formula, `vendor.type.slug` (**anomaly.theme.flat**), `app/addons/default/anomaly/flat-theme`. Move the template outside your project to avoid runtime exceptions.
+
+#### Development
 
 To test and develop the generate template locally, place it in the builder storage folder (`app/storage/streams/default/builder/flat-theme`) then run,
 
