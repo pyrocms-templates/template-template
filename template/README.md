@@ -8,7 +8,7 @@
 After installing [Pyro Builder](github.com/websemantics/builder-extension) run,
 
 ```
-php artisan make:builder {{slug}}-{{type}}
+php artisan builder:make {{slug}}-{{type}}
 ```
 
 ## Support
