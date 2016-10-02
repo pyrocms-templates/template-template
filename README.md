@@ -20,27 +20,14 @@
 To create an addon template you'll first need to install [Pyro Builder](github.com/websemantics/builder-extension) then run the following command,
 
 ```bash
-php artisan builder:make template-template
+php artisan make:addon anomaly.theme.flat --template
 ```
 
-Use option `--force` to download a fresh copy of `template-template`.
+The previous command will create a template project for a theme addon. The `vendor` and `slug` information are going to be used as default values for the target addon. Use option `--force` to download a fresh copy of `template-template`.
 
-The builder will prompt you to enter a default `slug`, addon `type` and `vendor` for the target template.
+The builder will prompt you to enter extra details or accept their default values
 
 ```
-Template default slug? [name]:
- > flat
-
- Template addon type? [module]:
-  [0] module
-  [1] theme
-  [2] extension
-  [3] field_type
- > 1
-
- Template default Vendor? [websemantics]:
- > anomaly
-
  Description? [An addon template for Pyro Builder.]:
  > Earthly flat
 
@@ -48,7 +35,7 @@ Template default slug? [name]:
  > Anomaly Labs
 ```
 
-The example above will create a template for a `theme` addon type that has a default slug, `flat` and a default vendor, `anomaly`.
+This will create a template for a `theme` addon that has a default slug, `flat` and a default vendor, `anomaly`.
 
 #### Default Values
 
@@ -63,21 +50,10 @@ The target template will be located as per the usual formula, `vendor.type.slug`
 To test and develop the generate template locally, place it in the builder storage folder (`app/storage/streams/default/builder/flat-theme`) then run,
 
 ```bash
-php artisan builder:make flat-theme
+php artisan make:addon flat-theme
 ```
 
 Do not use `--force` option here or run `builder:clear` command as the template is not present in the registry, yet!
-
-## The Easy Way
-
-Is there an easy way, you ask? absolutely! Use the `make:addon` command as follows,
-
-```bash
-php artisan make:addon anomaly.theme.flat --template  --force --default
-```
-
-- `--template`: changes the behaviour of `make:addon` to create a template instead of the addon itself.
-- `--default`: skips user interactivity and uses template default values.
 
 ## Contribution
 
